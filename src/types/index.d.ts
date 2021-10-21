@@ -18,3 +18,11 @@ interface CreepMemory {
         busy: boolean,
     }
 }
+
+interface Memory {
+    rooms: {
+        string: {
+            downgrade: boolean;
+        }
+    }
+}
